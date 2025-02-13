@@ -1,0 +1,12 @@
+title: Sample API
+version: 1.0
+endpoints:
+  - path: '/users/{id}'
+    method: GET
+    description: 'Fetch user by ID'
+    response:
+      200:
+        json:
+          id: int
+          name: string
+          email: string

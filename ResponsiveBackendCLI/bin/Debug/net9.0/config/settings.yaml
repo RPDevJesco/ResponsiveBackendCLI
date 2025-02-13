@@ -1,0 +1,8 @@
+authentication:
+  method: 'JWT'
+  secret: 'your-secret-key'
+logging:
+  enabled: true
+  log_level: 'info'
+rate_limiting:
+  requests_per_minute: 60
