@@ -119,11 +119,11 @@ rate_limiting:
 ### 10. **CLI Commands**
 | Command      | Description |
 |-------------|-------------|
-| `rb init`   | Initializes a new project |
-| `rb generate` | Generates API scaffolding from YAML/Markdown |
-| `rb test` | Runs auto-generated tests |
-| `rb serve` | Runs a mock server for API testing |
-| `rb validate` | Ensures OpenAPI compliance |
+| ` .\ResponsiveBackendCLI.exe  init`   | Initializes a new project |
+| ` .\ResponsiveBackendCLI.exe  generate` | Generates API scaffolding from YAML/Markdown | --language
+| ` .\ResponsiveBackendCLI.exe  test` | Runs auto-generated tests |
+| ` .\ResponsiveBackendCLI.exe  serve` | Runs a mock server for API testing |
+| ` .\ResponsiveBackendCLI.exe  validate` | Ensures OpenAPI compliance |
 
 ### 11. **Deployment & Cloud Support**
 - **No built-in deployment or cloud service support at this time**.
